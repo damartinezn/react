@@ -1,0 +1,35 @@
+reactstrap boostrap4 para React:
+	npm install --save bootstrap
+	npm install --save reactstrap react react-dom
+
+cuando esta instalado copiar al index.js
+	import 'bootstrap/dist/css/bootstrap.min.css';
+
+react-fontawesome
+	npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+para trabajar con tablas
+	https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/getting-started.html
+
+instalar
+	npm install react-bootstrap-table-next --save	
+uso en index.js
+	import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+
+para busacr en la tabla 
+	npm install --save react-bootstrap-table2-toolkit
+para la paginacion
+	npm install --save react-bootstrap-table2-paginator
+
+Redux
+	npm install react-redux
+	redux-form
+	redux	
+REdux thunk este y el anteriro creeamos variables globales
+	npm install redux-thunk
+axios peticiones http
+	npm install axios --save
+Para los formularios  https://redux-form.com/8.3.0/examples/simple/   pasos a seguir https://redux-form.com/8.3.0/docs/gettingstarted.md/
+	npm install --save redux-form
+para las alertas seet alert react js
+	npm install sweetalert --save

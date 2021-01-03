@@ -1,0 +1,45 @@
+{
+    "users": [{
+            "id": 1,
+            "name": "micaela",
+            "lastname": "manosalvas",
+            "age": 21,
+            "ci": "0998279347"
+        },
+        {
+            "id": 2,
+            "name": "alex",
+            "lastname": "martinez",
+            "age": 31,
+            "ci": "0998279347"
+        },
+        {
+            "id": 3,
+            "name": "ela",
+            "lastname": "narvaez",
+            "age": 43,
+            "ci": "0998279347"
+        },
+        {
+            "id": 4,
+            "name": "gaby",
+            "lastname": "cruz",
+            "age": 13,
+            "ci": "0998279347"
+        },
+        {
+            "id": 5,
+            "name": "anita",
+            "lastname": "loachamin",
+            "age": 10,
+            "ci": "0998279347"
+        },
+        {
+            "id": 6,
+            "name": "pame",
+            "lastname": "ruiz",
+            "age": 21,
+            "ci": "09982790098"
+        }
+    ]
+}
