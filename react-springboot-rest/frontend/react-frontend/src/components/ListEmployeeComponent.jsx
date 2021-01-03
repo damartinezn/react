@@ -28,6 +28,19 @@ class ListEmployeeComponent extends Component {
         this.props.history.push(`/update-employees/${id}`)
     }
 
+    viewEmployee = (id) => {
+        this.props.history.push(`/view-employees/${id}`)
+    }
+
+    deleteEmployee = (id) => {
+        EmployeeService.deleteEmployeeById(id).then(res => {
+            console.log(res);
+            this.componentDidMount();
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
     render() {
         return (
             <div>
@@ -55,7 +68,9 @@ class ListEmployeeComponent extends Component {
                                             <td>{employee.lastName}</td>
                                             <td>{employee.emailId}</td>
                                             <td>
-                                                <button className="btn btn-warning" onClick={ ()=> this.editEmployee(employee.id) }>Edit</button>
+                                                <button className="btn btn-sm btn-warning mr-1" onClick={() => this.editEmployee(employee.id)}>Edit</button>
+                                                <button className="btn btn-sm btn-danger ml-1" onClick={() => this.deleteEmployee(employee.id)}>Delete</button>
+                                                <button className="btn btn-sm btn-info ml-1" onClick={() => this.viewEmployee(employee.id)}>View</button>
                                             </td>
                                         </tr>
                                 )
